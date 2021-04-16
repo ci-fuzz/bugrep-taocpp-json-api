@@ -13,6 +13,5 @@ extern "C" int FUZZ_INIT()
 
 extern "C" int FUZZ( const char* Data, size_t Size )
 {
-
    return 0;  // Non-zero return values are reserved for future use.
 }
