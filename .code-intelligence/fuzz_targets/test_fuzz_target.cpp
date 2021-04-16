@@ -7,12 +7,10 @@
 extern "C" int FUZZ_INIT()
 {
    // Add global setup code here - called once before fuzzing starts
-
    return 0;  // Non-zero return values are reserved for future use.
 }
 
 extern "C" int FUZZ( const char* Data, size_t Size )
 {
-
    return 0;  // Non-zero return values are reserved for future use.
 }
