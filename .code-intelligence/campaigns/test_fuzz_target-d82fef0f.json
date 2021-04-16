@@ -1,0 +1,51 @@
+{
+  "name": "test_fuzz_target-d82fef0f",
+  "displayName": "test_fuzz_target",
+  "maxRunTime": "1800s",
+  "fuzzTargets": [
+    "test_fuzz_target-5ce53eb7"
+  ],
+  "fuzzerRunConfigurations": [
+    {
+      "engine": "LIBFUZZER",
+      "sanitizer": "ADDRESS",
+      "numberOfJobs": 1,
+      "engineArguments": [
+        "-entropic=1"
+      ]
+    },
+    {
+      "engine": "LIBFUZZER",
+      "sanitizer": "ADDRESS",
+      "numberOfJobs": 1,
+      "engineArguments": [
+        "-entropic=1",
+        "-use_value_profile=1"
+      ]
+    }
+  ],
+  "configuredTargets": [
+    {
+      "fuzzTarget": "test_fuzz_target-5ce53eb7",
+      "fuzzerRunConfigurations": [
+        {
+          "engine": "LIBFUZZER",
+          "sanitizer": "ADDRESS",
+          "numberOfJobs": 1,
+          "engineArguments": [
+            "-entropic=1"
+          ]
+        },
+        {
+          "engine": "LIBFUZZER",
+          "sanitizer": "ADDRESS",
+          "numberOfJobs": 1,
+          "engineArguments": [
+            "-entropic=1",
+            "-use_value_profile=1"
+          ]
+        }
+      ]
+    }
+  ]
+}

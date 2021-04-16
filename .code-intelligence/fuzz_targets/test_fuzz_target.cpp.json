@@ -1,0 +1,17 @@
+{
+  "name": "test_fuzz_target-5ce53eb7",
+  "displayName": "test_fuzz_target",
+  "buildFlags": [
+    "-Ibuild/src/example/json",
+    "-Iinclude",
+    "-Iexternal/PEGTL/include",
+    "-Iinclude/tao/json/events",
+    "-Lbuild/src/example/json",
+    "-std=c++17"
+  ],
+  "cApi": {
+    "api": {
+      "relativePath": ".code-intelligence/fuzz_targets/test_fuzz_target.cpp"
+    }
+  }
+}
