@@ -1,6 +1,6 @@
 {
-  "name": "projects/taocpp-json-api-9edfa5d5",
-  "displayName": "taocpp-json-api",
+  "name": "projects/bugreptaocpp-json-api-9edfa5d5",
+  "displayName": "bugrep-taocpp-json-api",
   "buildScriptContent": ":",
   "details": {
     "buildSystem": "CMAKE"
